@@ -18,7 +18,7 @@ Speech is a very convenient way to interact with machines. At present, most feat
 Automatic speech recognition (ASR) converts human speech into text or words that can beunderstood and classified easily. Only digits from '০-৯' were used in the few studies on Bangla number recognition systems, which completely ignored duo-syllabic and tri-syllabic numbers. In this paper, audio samples from different genders, age groups, and dialects of Bangladeshi people were used to create a speech dataset of spoken numbers from '০-৯৯'. The raw speech data is subjected to various audio augmentation techniques such as time shift, speed tuning, background noise mixing, and volume tuning. Then, to extract meaningful features from the data, Mel Frequency Cepstrum Coefficients (MFCCs) are used. This research developed a Bangla number recognition system based on Convolutional Neural Networks (CNNs). The proposed method recognizes '০-৯৯' Bangla spoken numbers with 89.61% accuracy across the entire dataset. The model’s effectiveness was also tested using 10-fold cross-validation, with 89.74% accuracy for recognizing '০-৯৯' Bangla spoken numbers across the entire dataset.
 
 ## Quick Start Guide
-1. clone this repo `https://github.com/PiasRoY/Bangla-Spoken-Number-Recognition.git`
+1. clone this repo `https://github.com/Ovishake1607066/Bangla-Spoken-Number-Recognition.git`
 2. collect our own developed dataset from here: `https://www.kaggle.com/piasroy/bangla-spoken-099-numbers`
 3. copy all the folders labelled from "0-99" and paste them into the `Bangla_Spoken_Numbers` folder of this repo.
 4. install required python dependencies from `requirements.txt`.
